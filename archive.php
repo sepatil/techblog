@@ -8,7 +8,7 @@
       <h5 class="card-title">
         <?php echo get_the_archive_description();  ?>
       </h5>
-    </div>
+    </div> 
     <?php
     $image_id = get_term_meta(get_queried_object()->term_id, 'image_id', true);
     echo wp_get_attachment_image($image_id, 'card-img-top img-fluid d-none d-sm-block'); ?>

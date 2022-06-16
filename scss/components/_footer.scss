@@ -1,0 +1,22 @@
+@use "../custom" as *;
+.site-footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: rgb(253, 251, 251);
+  .container {
+    .column {
+      color: rgb(46, 42, 42);
+      h2 {
+        font-size: $article-title;
+        padding-bottom: 15px;
+      }
+      ul {
+        list-style-type: none;
+        padding-left: 0px;
+        li {
+          padding-bottom: 10px;
+        }
+      }
+    }
+  }
+}

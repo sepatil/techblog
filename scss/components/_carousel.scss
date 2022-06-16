@@ -1,0 +1,43 @@
+@use "../custom" as *;
+.hero-carousel {
+  .carousel-inner {
+    .carousel-item {
+      img {
+        object-fit: cover;
+        object-position: center;
+        height: 75vh;
+        overflow: hidden;
+      }
+      &::before {
+        content: "";
+        background-image: linear-gradient(
+          to bottom,
+          transparent,
+          rgba(0, 0, 0, 0.9)
+        );
+        display: block;
+        position: absolute;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+      }
+      .carousel-caption {
+        transform: translateY(-50%);
+        bottom: initial;
+        top: 50%;
+        h5 {
+          color: #fff;
+          font-size: 33px;
+        }
+        p {
+          color: #fff;
+          font-size: 26px;
+        }
+        .btn {
+          color: #fff;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}

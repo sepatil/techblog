@@ -1,0 +1,27 @@
+{
+  "name": "techblog2022",
+  "version": "1.0.0",
+  "description": "WordPress Bootstrap based theme",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "Bootstrap",
+    "bootstrap-v5",
+    "sass",
+    "learn-bootstrap",
+    "learn-sass",
+    "WordPress"
+  ],
+  "author": "sepatil",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.32.12"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "bootstrap": "^5.0.0",
+    "get-google-fonts": "^1.2.2"
+  }
+}
